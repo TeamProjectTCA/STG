@@ -3,6 +3,7 @@
 #include <string>
 
 PTR( SceneManager );
+PTR( Scene );
 
 class SceneManager : public Base {
 public:
@@ -17,5 +18,11 @@ public:
 	void initialize( );
 	void finalize( );
 	void update( );
+
+private:
+	void changeScene( );
+
+private:
+	ScenePtr _scene;
 };
 

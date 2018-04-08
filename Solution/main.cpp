@@ -64,6 +64,9 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
 		manager->add( Mouse::getTag( ), mouse );
 		manager->add( SceneManager::getTag( ), scene );
 
+		//add‚µ‚½ƒNƒ‰ƒX‚Ì‰Šú‰»
+		manager->allInitialize( );
+
 		while ( true ) {
 			if ( ScreenFlip( ) != 0 || ProcessMessage( ) != 0 || ClearDrawScreen( ) != 0 ) {
 				break;
