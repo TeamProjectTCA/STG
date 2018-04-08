@@ -4,6 +4,7 @@
 
 PTR( SceneGame );
 PTR( Keyboard );
+PTR( Player );
 
 class SceneGame : public Scene {
 public:
@@ -15,5 +16,6 @@ public:
 
 private:
 	KeyboardPtr _keyboard;
+	PlayerPtr _player;
 };
 

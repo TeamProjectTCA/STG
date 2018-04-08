@@ -13,6 +13,10 @@
     <ClCompile Include="SceneManager.cpp">
       <Filter>Scene\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h" />
@@ -27,6 +31,10 @@
       <Filter>Scene\Manager</Filter>
     </ClInclude>
     <ClInclude Include="const.h" />
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -34,6 +42,9 @@
     </Filter>
     <Filter Include="Scene\Manager">
       <UniqueIdentifier>{eb4bdf0c-c9b4-4804-9a47-82b0872c6836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7f51d67c-df6a-44d4-aba1-c627d732bdaa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
